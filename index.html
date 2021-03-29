@@ -1,36 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-  <meta name="viewport" content="width=device-width" />
-  <title>Tuhin Roy</title>
-  <link href="styles.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home | tuhin roy</title>
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-container">
-      <h1 class="header-primary">
-        <span class="header-primary-main">
-          Tuhin Roy
-        </span>
-      </h1>
-      <div class="header-icons">
-        <a class="header-icon" href="https://linkedin.com/in/Tuhin-Roy" target="_blank"><i
-            class="fa fa-linkedin"></i></a>
-        <a class="header-icon" href="https://github.com/troy96" target="_blank"><i class="fa fa-github"></i></a>
-        <a class="header-icon" href="http://facebook.com/2hinRoy" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a class="header-icon"
-          href="https://wa.me/919897264455?text=Hello Tuhin%20%20I got your number from your website!"
-          target="_blank"><i class="fa fa-whatsapp"></i></a>
-      </div>
-    </div>
+  <nav class="navigation">
+    <div class="nav-brand">Tuhin Roy</div>
+    <ul class="list-non-bullets nav-pills">
+      <li class="list-item-inline">
+        <a class="link link-active" href="/">home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/projects.html">projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/blogs.html">blogs</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <img class="hero-img" src="images/header.svg" />
+    <h1 class="hero-heading">a full stack engineer with affection for <span class="heading-inverted">startups, wealth
+        and books</span></h1>
   </header>
+
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>technologies</h3>
+        <p>I have hands-on experience on HTML5, CSS3, UI Prototyping, Git, JavaScript, Node.js, React.js, Angular,
+          GraphQL, MongoDB,
+          MySQL and
+          AWS</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-center">
+      <h1>projects</h3>
+        <p>I like to create small to medium complexity projects to prototype ideas which you can see from below</p>
+        <a class="link link-secondary" href="/projects.html">BROWSE PROJECTS</a>
+    </div>
+  </section>
+
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>blogs</h3>
+        <p>I'm active on linkein and twitter and very soon starting my blogging space. More details coming very soon.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">READ BLOGS</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <!-- Do not use headers in footer -->
+    <div class="footer-header">connect with me</div>
+    <ul class="social-links list-non-bullets">
+      <li class="list-item-inline"><a class="link" href="https://github.com/Troy96">github</a></li>
+      <li class="list-item-inline"><a class="link" href="https://twitter.com/2hinRoy">twitter</a></li>
+      <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tuhin-roy/">linkedin</a></li>
+    </ul>
+  </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Re-learning HTML by creating a component library</h1>
+    <p>Welcome to my component library. I'm building this while watching the neog.camp levelZero by Tanay Pratap.
+        excited to see what I build here :)</p>
+
+    <hr />
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h1>
+        <p>This is a normal text. Will wrap it at the end. Right now it is free flowing</p>
+        <small>This is a smaller text</small>
+
+        <hr />
+
+        <h2>@containers</h2>
+
+        <h3>fluid container</h3>
+        <div class="container">This is a fluid container and it will go till the end of the page</div>
+
+        <h3>center container</h3>
+        <div class="container-center">This is a centered container and it will go till specified width</div>
+
+        <hr />
+
+        <h2>@links</h2>
+        <a class="link link-primary" href="/">Primary Link</a>
+        <a class="link link-secondary" href="/">Secondary Link</a>
+
+        <hr />
+
+        <h2>@lists</h2>
+        <h3>unordered list</h3>
+        <p>This list will not have the bullets</p>
+
+        <ul class="list-non-bullets">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+
+        <h3>unordered inline list</h3>
+
+        <ul class="list-non-bullets">
+            <li class="list-item-inline">Inline Item One</li>
+            <li class="list-item-inline">Inline Item Two</li>
+            <li class="list-item-inline">Inline Item Three</li>
+        </ul>
+
+        <h3>reverse ordered list</h3>
+        <ol reversed>
+            <li>milk</li>
+            <li>egg</li>
+            <li>bread</li>
+
+        </ol>
+
+        <hr />
+
+        <h2>@nav</h2>
+        <nav class="navigation">
+            <div class="nav-brand">IAmBrand</div>
+            <ul class="list-non-bullets nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-active" href="/">home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">about</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr />
+
+        <h2>@header</h2>
+        <header class="hero">
+            <img class="hero-img" src="images/header.svg" />
+            <h1 class="hero-heading">Tuhin Roy - <span class="heading-inverted">Full Stack Engineer</span></h1>
+        </header>
+
+        <hr />
+
+        <h2>@sections</h2>
+
+        <section class="section">
+            <div class="container container-center">
+                <h1>white section</h3>
+                    <p>MDN is an open source resource where anyone can add and edit contents. You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading and correcting typos) to the complex (writing API documentation).
+
+                        Contributing is easy and safe. Even if you make a mistake, it's easily fixed. Even if you don't know exactly how things should look, or your grammar isn't all that good, don't worry about it! We have a team of people whose job it is to make sure that MDN's contents are as good as possible. Someone will be along to make sure your work is tidy and well-written. Share what you know and follow your strengths.</p>
+            </div>
+        </section>
+
+        <section class="section ow">
+            <div class="container container-center">
+                <h1>off-white section</h3>
+                    <p>MDN is an open source resource where anyone can add and edit contents. You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading and correcting typos) to the complex (writing API documentation).
+
+                        Contributing is easy and safe. Even if you make a mistake, it's easily fixed. Even if you don't know exactly how things should look, or your grammar isn't all that good, don't worry about it! We have a team of people whose job it is to make sure that MDN's contents are as good as possible. Someone will be along to make sure your work is tidy and well-written. Share what you know and follow your strengths.</p>
+            </div>
+        </section>
+
+        <hr />
+        <h2>@footer</h2>
+
+        <footer class="footer">
+            <!-- Do not use headers in footer -->
+            <div class="footer-header">Some text in footer</div>
+            <ul class="social-links list-non-bullets">
+                <li class="list-item-inline"><a class="link" href="">social One</a></li>
+                <li class="list-item-inline"><a class="link" href="">social two</a></li>
+                <li class="list-item-inline"><a class="link" href="">social third</a></li>
+            </ul>
+        </footer>
+
+        <div style="height: 50vh;"></div>
+
+</body>
+
+</html>
